@@ -14,7 +14,7 @@ requirements = [
 
 setup(
     name='octconv',
-    version=os.getenv('TRAVIS_TAG', '0.1.0'),
+    version=os.getenv('TRAVIS_TAG', '0.2.0'),
     packages=['octconv'],
     url='https://github.com/braincreators/octconv',
     license='MIT',
